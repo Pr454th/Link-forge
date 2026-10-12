@@ -1,0 +1,12 @@
+{
+  "name": "link-forge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test",
+    "build": "npm --prefix web run build"
+  }
+}
